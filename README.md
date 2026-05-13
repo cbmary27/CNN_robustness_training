@@ -240,12 +240,6 @@ The transformer model with self-supervised pretraining (DINOv2) achieved the str
  
 ## Setup
  
-```bash
-git clone https://github.com/yourusername/your-repo-name
-cd your-repo-name
-pip install torch torchvision tqdm numpy pandas matplotlib huggingface_hub timm
-```
- 
 Notebooks were trained on Kaggle (T4 GPU). To replicate, upload to Kaggle or Colab, enable GPU, and run all cells: CIFAR-100 and OOD test data download automatically.
  
 ---
